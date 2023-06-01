@@ -1,0 +1,15 @@
+
+
+.Hero {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Hero h1 {
+
+font-size: 50px;
+}

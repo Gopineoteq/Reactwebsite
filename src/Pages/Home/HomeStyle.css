@@ -1,0 +1,203 @@
+/* ***********************Hero section************************ */
+
+.hero video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.hero .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.hero .content .h1 {
+    font-size: 50px;
+}
+
+.hero .content p {
+    font-size: 25px;
+}
+
+.hero .content .buttons {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .content .buttons a {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+
+/* ***********************About section************************ */
+.about {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+}
+
+.about img {
+    height: 500px;
+}
+
+.about .contant {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    line-height: 25px;
+}
+
+
+
+/* ***********************Services section************************ */
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    padding: 20px;
+}
+
+.Services img {
+    width: 100%;
+}
+
+.carousel-indicators {
+    display: none !important;
+}
+
+/* ***********************CallTOaction section************************ */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+
+}
+.call-to-action h2{
+    font-size: 50px;
+}
+.call-to-action button {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.call-to-actio h2 {
+    font-size: 40px;
+}
+
+/* ***********************Model section************************ */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 99999999999999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.overlay .Model {
+
+    width: 600px;
+    height: 500px;
+    background-color: #080808;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 80px;
+    text-align: center;
+    position: relative;
+}
+.overlay .Model .model-header {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   border: 1px solid #fff;
+  
+}
+
+/* ***********************FAQs section************************ */
+
+.faq {
+    width: 100%;
+    padding: 50px;
+}
+.faq .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    width: 100%;
+}
+.faq .item .wrapper {
+display: flex;
+justify-content: center;
+align-items: center;
+gap:20px;
+flex-direction: column;
+padding: 20px 30px;
+}
+.faq .item .question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap: 50px; */
+    width: 100%;
+}
+.faq .item .question img {
+    width: 30px;
+}
+
+.answers {
+max-height: 0;
+}
+.answers.show {
+height: auto;
+max-height:99999px
+
+}
